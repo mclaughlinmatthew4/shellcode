@@ -1,0 +1,39 @@
+jdebette@JDEBETTENWS2016:~$ nano sum.s
+jdebette@JDEBETTENWS2016:~$ cat hello_world.c
+#include <stdio.h>
+
+int main ()
+{
+  printf("Hello Old World!\n");
+
+  return 0;
+}
+jdebette@JDEBETTENWS2016:~$ cat hello_world_noinc.c
+/* #include <stdio.h> */
+
+int main ()
+{
+  printf("Hello Old World!\n");
+
+  return 0;
+}
+jdebette@JDEBETTENWS2016:~$ cat hello_world_ret.c
+#include <stdio.h>
+
+int main ()
+{
+  return(printf("Hello Old World!\n"));
+}
+jdebette@JDEBETTENWS2016:~$ cat hello_world_2.c
+#include <stdio.h>
+
+int main ()
+{
+int a=10;
+printf("a=%d\n",printf("b=%d\n",a));
+printf("Color %s, number1 %d, number2 %05d, hex %x, float %5.2f, unsigned value %u.\n",
+       "red", 123456, 89, 255, 3.14159, 250);
+printf("Hello Old World!\n");
+return 0;
+}
+jdebette@JDEBETTENWS2016:~$
